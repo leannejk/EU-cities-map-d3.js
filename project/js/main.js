@@ -48,7 +48,7 @@ function filterObg(data)
 }
 
 function addCountData(data){
-    d3.select("body").append("p").text(data.length);
+    d3.select("body").append("p").text("Number of cities: " + data.length);
 }
 
 function strToNum(data){
@@ -84,7 +84,7 @@ function drewCircles(data){
         .attr("x", function(d, x) {
             return d.x;})
         .attr("y", function(d, y) {
-            return d.y;})
+            return d.y - 10;})
         .text(function(d) {
             return d.city;})
 }
