@@ -5,7 +5,6 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: url("https://cdn3.vectorstock.com/i/1000x1000/63/67/pink-seamless-pattern-background-polka-dot-vector-24406367.jpg");
 }
 
 h1{
@@ -28,4 +27,8 @@ h1{
 .city-label{
     font-size: 11px;
     text-anchor: middle;
+}
+
+circle:hover{
+    fill: lightslategrey;
 }
