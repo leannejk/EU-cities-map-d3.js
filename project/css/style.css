@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+body{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("https://cdn3.vectorstock.com/i/1000x1000/63/67/pink-seamless-pattern-background-polka-dot-vector-24406367.jpg");
+}
+
+h1{
+    font-family: 'Lobster', cursive;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size:120px;
+    letter-spacing:0.1em;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: white;
+    text-shadow:
+            8px 8px #91034a,
+            15px 15px #000000;
+}
+
+
+.city-label{
+    font-size: 11px;
+    text-anchor: middle;
+}
